@@ -1,0 +1,141 @@
+html {
+    background-color: #f9c74f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #3a0ca3;
+    text-align: center;
+}
+
+form {
+    font-size: 15px;
+    text-align: left;
+}
+
+form h4 {
+    text-align: center;
+}
+input {
+    border-bottom: midnightblue solid 3px;
+    border-radius: 4px;
+    background-color:#90be6d ;
+}
+
+input[type=email] {
+    margin-left: 31px;
+}
+
+textarea {
+    box-sizing: border-box;
+    border: 3px solid midnightblue;
+    border-radius: 4px;
+    resize: none;
+    background-color: #90be6d;
+}
+
+button {
+    border-radius: 4px;
+    border: #f94144 3px solid;
+    background-color:#43aa8b ;
+    color: midnightblue;
+    height: 30px;
+}
+
+.rows {
+    margin: 5px auto 5px auto;
+    width : 1200px;
+    height: 250px ;
+    clear: both;
+}
+
+.rows > section {
+    display: inline-block;
+    box-sizing: border-box;
+    border: #f94144 1px solid;
+
+}
+
+.smallBox {
+    width : 395px;
+    height : 250px;
+}
+
+.mediumBox {
+    width: 595px;
+    height : 250px;
+}
+
+.bigBox {
+    width : 795px;
+    height: 250px;
+}
+
+.halfBox {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px 50px;
+    display: inline-block;
+}
+
+#mainTitle {
+    background-color : #f3722c ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: x-large;
+    margin: 0px auto 5px auto;
+    box-sizing: border-box;
+    width: 1200px;
+    border: #f94144 10px solid;
+}
+
+#mainTitle > h3 {
+    font-size: larger;
+}
+
+
+#picHold1 {
+    background-color: #43aa8b;
+    float: left;
+}
+
+#image1 {
+    height : 200px;
+    display: inline-block;
+    margin: auto;
+}
+
+#aboutPara {
+    background-color: #90be6d;
+    margin: 0 auto;
+    font: larger lighter;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    padding: 3.31%;
+}
+
+#jokePara {
+    background-color: #90be6d;
+    float: left;
+    padding: 2%;
+}
+
+#picHold2 {
+    background-color: #43aa8b ;
+    float: right;
+    padding: 5px;
+}
+
+
+#formBox {
+    float: left;
+    background-color: #43aa8b;
+    font-size: smaller;
+
+}
+
+#rickRollBox {
+    float: right;
+    background-color: #90be6d;
+    padding: 7% 6%;
+
+}
