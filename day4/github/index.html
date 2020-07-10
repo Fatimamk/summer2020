@@ -5,32 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
+      href="https://bootswatch.com/4/litera/bootstrap.min.css"
     />
-    <title>GitHub Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Github Search</title>
   </head>
   <body>
-    <div class="container">
-      <div class="card mt-5 border-dark">
-        <div class="card-body text-center">
-          <h1>Profile Fetcher</h1>
-          <div class="form-group">
-            <input type="text" id="username" class="form-control" />
-            <!-- username id for input -->
-          </div>
-        </div>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Github Finder</a>
       </div>
-      <div class="card mt-5 text-center border-dark">
-        <div class="card-body">
-          <h1>Profile</h1>
-          <div id="profile"></div>
-          <!-- profile id here -->
-        </div>
+    </nav>
+    <div class="container searchContainer">
+      <div class="search card card-body">
+        <h1>Search Github Users</h1>
+        <p class="lead">Enter a username to fetch a user profile and repos</p>
+        <input type="text" id="searchUser" class="form-control" placeholder="GitHub Username...">
+        <!-- enter id here, this is searchUser -->
       </div>
+      <br>
+      <div id="profile"></div>
+      <!-- profile here -->
     </div>
+    
+    <footer class="mt-5 p-3 text-center bg-light border">
+      GitHub Finder &copy;
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -47,6 +46,8 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
