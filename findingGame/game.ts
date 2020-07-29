@@ -156,8 +156,10 @@ btnReset.addEventListener("click", (e) => {
     timer.value = 30;
     doCountdown();
     btnReset.style.display = "none";
-    roboCat.style.display = "block";
-    otherSprite.style.display = "block";
+    // roboCat.style.display = "block";
+    roboCat.style.removeProperty('display');
+    // otherSprite.style.display = "block";
+    otherSprite.style.removeProperty('display');
     score = 0;
     scoreBar.value = "Score : 0";
 });
