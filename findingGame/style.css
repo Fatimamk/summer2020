@@ -1,0 +1,18 @@
+#background {
+    width: 100px;
+    height: 200px;
+    background-color: green;
+}
+
+#btnRobo {
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+
+#btnOtherSprite {
+    position: relative;
+    left: 30%;
+    top: 50%;
+}
+
