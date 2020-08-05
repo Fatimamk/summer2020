@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Find Robo Cat
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Find Robo Cat App</title>
+    <meta name="description" content="Finding Robo-Cat App">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <ion-toolbar>
+      <ion-title size="medium">Find Game</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <!-- <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p> -->
+    
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Find Robo-Cat!</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <input type="text" disabled="disabled" id = "timeBar" value="30">
+    
+        <div id="background">
+    
+            <button id="btnRobo">cat</button>
+            <button id="btnOtherSprite">other</button>
+    
+        </div>
+        <input type="text" disabled="disabled" id = "score" value="Score : 0">
+        <button id="btnReset" style="display: none;">Reset</button>
+    
+
+      </ion-card-content>
+    </ion-card>
+    
+    <!-- might need to make it clearer that clicking on elephant or pig loses points -->
+
+    <!-- <p>Navigation Icons</p> -->
+   
+    
+    <script src="game.ts" async defer></script>
+  </div>
+</ion-content>
